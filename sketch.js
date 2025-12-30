@@ -520,7 +520,6 @@ function preLoad(){
 }
 
 //klasses
-
 class Finish{ //finish lijn
     constructor(x, y) {
         this.x = x;
