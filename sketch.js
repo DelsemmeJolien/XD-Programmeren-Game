@@ -512,11 +512,11 @@ function mousePressed(){
 function preLoad(){
     //custom font
     gameFont = loadFont('./media/Jersey10-Regular.ttf');
-    catSound = loadSound('/media/cat.mp3');
-    jumpSound = loadSound('/media/jump.mp3');
-    collectSound = loadSound('/media/collect.mp3');
-    loseSound = loadSound('/media/youlose.mp3');
-    winSound = loadSound('/media/youwin.mp3');
+    catSound = loadSound('./media/cat.mp3');
+    jumpSound = loadSound('./media/jump.mp3');
+    collectSound = loadSound('./media/collect.mp3');
+    loseSound = loadSound('./media/youlose.mp3');
+    winSound = loadSound('./media/youwin.mp3');
 }
 
 //klasses
